@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #384047;
+            background-color: #dbe5ee;
+        }
+        form{
+            background-color: #f4f7f8;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+    <form action="" method="">
+        <h1>Sign up</h1>
+        <fieldset>
+            <legend><span class="number">1</span>Your Basic Info</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="user_name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="user_email" id="mail">
+        <label for="pasword">Password:</label>
+        <input type="password" name="user_password" id="password">
+        <label for="age">Age:</label>
+        <input type="radio" name="user_age" id="above_18" value="above_18">
+        <label for="above_18" class="light">Above 18</label>
+        <br>
+        <input type="radio" name="user_age" id="below_18" value="below_18">
+        <label for="below_18" class="light">Below 18</label>
+        </fieldset>
+        <fieldset>
+            <legend><span>2</span>Your Profile</legend>
+            <label for="bio">Bio</label>
+            <textarea name="user_bio" id="bio"></textarea>
+            <label for="job">Job Role</label>
+            <select name="user_job" id="job">
+                <optgroup label="Web">
+                    <option value="front_end">Front End</option>
+                    <option value="front_end">Front End</option>
+                    <option value="front_end">Front End</option>
+                    <option value="front_end">Front End</option>
+                    <option value="front_end">Front End</option>
+                    <option value="front_end">Front End</option>
+                </optgroup>
+                <optgroup label="Mobile">
+                    <option value="Android_developer">Android_developer</option>
+                    <option value="Android_developer">Android_developer</option>
+                    <option value="Android_developer">Android_developer</option>
+                </optgroup>
+                <optgroup label="Business">
+                    <option value="freelancer">freelancer</option>
+                    <option value="freelancer">freelancer</option>
+                </optgroup>
+            </select>
+            <label for="intrest">Interest</label>
+            <input type="checkbox" name="user_intrest" id="development" value="intrest_development">
+             <label class=light for="development">Development</label>
+             <br>
+             <input type="checkbox" name="user_intrest" id="development" value="intrest_development">
+             <label class=light for="design">Design</label>
+             <br>
+             <input type="checkbox" name="user_intrest" id="design" value="intrest_development">
+             <label class=light for="development">business</label>
+        </fieldset>
+
+        <button type="submit">Sign up</button>
+    </form>
+</div>
+</div>
+</body>
+</html> 
